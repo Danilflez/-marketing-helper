@@ -1,0 +1,32 @@
+// styles for libs
+// .ant-input {
+//   background: inherit;
+//   border: 1px solid #11111140;
+//   border-radius: 7px;
+// }
+
+.ant-col {
+  label {
+    color: #11111180 !important;
+  }
+
+  @media screen and (max-width: $breakpoint-lg) {
+    height: max-content;
+    flex: 1;
+  }
+}
+
+.ant-row {
+  display: block;
+}
+
+.ant-picker {
+  width: 100%;
+}
+
+.ql-toolbar {
+  border-radius: 5px 5px 0 0;
+}
+.ql-container {
+  border-radius: 0 0 5px 5px;
+}
